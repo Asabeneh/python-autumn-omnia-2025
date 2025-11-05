@@ -1,0 +1,6 @@
+- Python date time
+- File handling
+- Packages - requests and Flask 
+- Fetching from an API (url = 'https://api.thecatapi.com/v1/breeds')
+- Day_Virtual_environment
+- Set
