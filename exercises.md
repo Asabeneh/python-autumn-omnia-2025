@@ -2,7 +2,8 @@
 
 # 🐱 Exercises
 
-Use the **cats data** from this [JSON file](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/cats.json) to solve the following problems:
+Apply different methods such as Functional programming(map, filter, reduce), list comprehension to solve the problem.
+Use the **cats data** from this [JSON file](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/cats.json) to solve the following problems. 
 
 1. Create a frequency table showing each **country** and the **number of cat breeds** it has.
 2. Calculate the **average life span** of all cats.
@@ -20,4 +21,5 @@ Use the **cats data** from this [JSON file](https://github.com/Asabeneh/30-Days-
 8. Determine how many **unique words** were used to describe cat **temperaments**.
 9. Find the **top 5 cats** with the **longest life span**.
 10. Find the **5 cats** with the **smallest average weight**.
+    
 
