@@ -9,7 +9,7 @@ Use the **cats data** from this [JSON file](https://github.com/Asabeneh/30-Days-
 2. Calculate the **average life span** of all cats.
 3. Calculate the **average weight** of cats (in kilograms).
 4. Filter out all cats whose **energy level** is **greater than 4**.
-5. Concatenate all the **description texts**, then find the **10 most frequent words**.
+5. Concatenate all the **description texts**, then find the **10 most frequent words**. You may also use worldcloud package and create a word cloud of the description.
 6. Create a list of all **cat image URLs** by concatenating:
 
    ```sh

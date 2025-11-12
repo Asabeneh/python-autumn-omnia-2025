@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <style>
+        .cats {
+            width: 65%;
+            margin: auto;
+        }
+        img {
+            max-width: 100%
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center; font-size: 36px;color:gre">Cats Paradise</h1>
+    {{n}}
+    
+    <div class="cats">
+          {% for cat in data %}
+    <div>
+         <img src ={{cat.image_url}} />
+    <h2>{{cat.country}}</h2>
+    <p> {{cat.name}}</p>
+    <p>{{cat.description}}</p>
+   
+    </div>
+   
+    {% endfor %}
+    </div>
+</body>
+</html>
