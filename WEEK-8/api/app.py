@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from fetch_data import fetch_data
+from datetime import datetime
 
 
 app = Flask(__name__)
@@ -18,9 +19,12 @@ simplified_cats = [{
     } for cat in cats]
 
 
-@app.route('/home')
+@app.route('/')
 def home():
-    return '<h1>Home sweet home!<h1>'
+    now = datetime.now()
+    new_year = datetime(2026, 1, 1)
+    time_left = new_year - now
+    return render_template('home.html', time_left  = time_left)
 
 
 @app.route('/about')
